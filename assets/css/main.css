@@ -16,7 +16,7 @@ body {
 }
 
 
-.full{
+.front{
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -25,7 +25,36 @@ body {
   align-items: center;
 }
 
-.full .bg{ 
+.front .logo{
+  width: 300px;
+  z-index: 200;
+  animation-name: ani-logo;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.front .logo:hover{
+  animation-iteration-count: 1;
+}
+
+.btn-pages{
+  position: relative;
+  z-index: 100;
+  width: 300px;
+  margin-bottom: 20px;
+  transition: transform .3s ease-in-out;
+  cursor: pointer;
+}
+
+.btn-pages:hover{
+  position: relative;
+}
+
+.front a{
+  font-size: 14px;
+}
+
+.front .bg{ 
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -65,45 +94,25 @@ body {
 
 
 
-.btn-pages{
-  position: relative;
-  z-index: 100;
-  width: 300px;
-  margin-bottom: 20px;
-  transition: transform .3s ease-in-out;
-  cursor: pointer;
-}
 
-.btn-pages:hover{
-  filter:hue-rotate(0deg);
-  animation-name: ani-btn;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  transform: scale(1.2);
-}
-
-@keyframes ani-btn {
+@keyframes ani-logo {
   0% {filter:hue-rotate(0deg);}
   20% {filter:hue-rotate(0deg);}
 
-  21% {filter:hue-rotate(180deg);}
-  40% {filter:hue-rotate(180deg);}
+  21% {filter:hue-rotate(300deg);}
+  40% {filter:hue-rotate(300deg);}
 
-  41% {filter:hue-rotate(120deg);}
-  60% {filter:hue-rotate(120deg);}
+  41% {filter:hue-rotate(220deg);}
+  60% {filter:hue-rotate(220deg);}
 
-  61% {filter:hue-rotate(60deg);}
-  80% {filter:hue-rotate(60deg);}
+  61% {filter:hue-rotate(20deg);}
+  80% {filter:hue-rotate(20deg);}
 
   81% {filter:hue-rotate(270deg);}
   99% {filter:hue-rotate(270deg);}
 
-  100% {filter:hue-rotate(360deg);}
+  100% {filter:hue-rotate(0deg);}
 }
-
-
-
-
 
 
 
@@ -192,9 +201,9 @@ nav li {
   letter-spacing: 4px;
 }
 
-.title-brands{ color: #f70;}
-.title-icons{ color: #f07;}
-.title-files{ color: #0f7;}
+.title-brands{ color: #f70; font-family: 'VT323', monospace;}
+.title-icons{ color: #f07; font-family: 'VT323', monospace;}
+.title-files{ color: #0f7; font-family: 'VT323', monospace;}
 
 
 .search-input{
