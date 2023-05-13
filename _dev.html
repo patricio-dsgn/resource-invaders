@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <div class="container" id="container">
+    <button class="button" id="button">Botón</button>
+  </div>
+
+  <style>
+.container {
+  background-color: #ccc;
+  padding: 20px;
+}
+
+.container.hover {
+  background-color: #0f0;
+}
+
+.button {
+  background-color: #f00;
+}
+
+.button.hover {
+  background-color: #0f0;
+}
+
+
+  </style>
+
+<script>
+
+const container = document.getElementById('container');
+const button = document.getElementById('button');
+
+button.addEventListener('mouseenter', () => {
+  container.classList.add('hover');
+  button.classList.add('hover');
+});
+
+button.addEventListener('mouseleave', () => {
+  container.classList.togl('hover');
+  button.classList.remove('hover');
+});
+
+</script>
+</body>
+</html>

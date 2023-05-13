@@ -1,0 +1,74 @@
+{
+  "source": {
+    "svg-logo": {
+      "type": "img",
+      "dimension": [60,60],
+      "file": [
+        "cambiaforma.svg",
+        "logo-es.svg/#333",
+        "design.svg",
+        "design-v2.svg",
+        "designthinking.svg",
+        "designthinking-v2.svg",
+        "key.svg",
+        "lxd.svg",
+        "uxui.svg",
+        "tree.svg"
+      ]
+    },
+    "svg-logo-web": {
+      "type": "img",
+      "dimension": [60,60],
+      "file": [
+        "css3.svg",
+        "css3-v2.svg",
+        "html5.svg",
+        "html5-v2.svg",
+        "figma.svg",
+        "sass.svg"
+      ]
+    },
+    "svg-logo-js": {
+      "type": "img",
+      "dimension": [60,60],
+      "file": [
+        "javascript.svg",
+        "javascript-v2.svg",
+        "javascript-v3.svg",
+        "typescript.svg",
+        "react.svg",
+        "node.svg"
+      ]
+    },
+    "svg-logo-code": {
+      "type": "img",
+      "dimension": [60,60],
+      "file": [
+        "terminal.svg",
+        "code.svg",
+        "php.svg",
+        "php-v2.svg",
+        "python.svg",
+        "python-v2.svg",
+        "django.svg"
+      ]
+    },
+    "svg-logo-data": {
+      "type": "img",
+      "dimension": [60,60],
+      "file": [
+        "sql.svg",
+        "leaflet.svg",
+        "metabase.svg",
+        "excel.svg",
+        "datascience.svg",
+        "datastudio.svg",
+        "data.svg",
+        "cloud.svg",
+        "blockchain.svg",
+        "blockchain-v2.svg/#000",
+        "blockchain-v2.svg"
+      ]
+    }
+  }
+}
