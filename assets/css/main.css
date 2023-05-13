@@ -26,7 +26,7 @@ body {
 }
 
 .front .logo{
-  width: 300px;
+  width: 400px;
   z-index: 200;
   animation-name: ani-logo;
   animation-duration: 1s;
@@ -51,7 +51,8 @@ body {
 }
 
 .front a{
-  font-size: 14px;
+  font-size: 24px;
+  margin-left: -60px;
 }
 
 .front .bg{ 
@@ -171,7 +172,7 @@ nav li {
 }
 
 .top-bar a{
-  font-size: 13px;
+  font-size: 22px;
 }
 
 
@@ -565,13 +566,31 @@ svg{
 
 @media (max-width: 768px) {
   .header{
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     gap: 20px
   }
+
+  
+  .front .logo{
+    max-width: 300px;
+  }
+    
+  .front a{
+    font-size: 32px;
+    width: fit-content;
+    margin-left: 0;
+  }
+
+
+
+
 }
 
 @media (max-width: 480px) {
 
+  .front .logo{
+    width: 90%;
+  }
 }
 
