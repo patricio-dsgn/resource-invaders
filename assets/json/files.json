@@ -2,7 +2,10 @@
   "source": {
     "svg": {
       "type": "img",
-      "dimension": [60,60],
+      "dimension": [
+        60,
+        60
+      ],
       "file": [
         "1.svg",
         "2.svg",
@@ -12,14 +15,20 @@
     },
     "webp": {
       "type": "img",
-      "dimension": [60,60],
+      "dimension": [
+        60,
+        60
+      ],
       "file": [
         "demo.webp"
       ]
     },
     "png": {
       "type": "img",
-      "dimension": [60,60],
+      "dimension": [
+        60,
+        60
+      ],
       "file": [
         "1.png",
         "2.png",
@@ -28,9 +37,33 @@
         "0.png/#ccc"
       ]
     },
+    "png-draw": {
+      "type": "img",
+      "dimension": [
+        60,
+        60
+      ],
+      "file": [
+        "abstract.png",
+        "catdog.png",
+        "dog2.png",
+        "heart1.png",
+        "heart2.png",
+        "lion.png",
+        "logo.png",
+        "man.png",
+        "man2.png",
+        "pencil.png",
+        "team.png",
+        "woman.png"
+      ]
+    },
     "jpg": {
       "type": "img",
-      "dimension": [100,100],
+      "dimension": [
+        100,
+        100
+      ],
       "file": [
         "1.jpg",
         "2.jpg",
@@ -43,7 +76,10 @@
     },
     "jpg-photo-red": {
       "type": "img",
-      "dimension": [100,100],
+      "dimension": [
+        100,
+        100
+      ],
       "file": [
         "pexels-ben-cheung-715134.jpg",
         "pexels-chevanon-photography-1108116.jpg",
@@ -57,9 +93,34 @@
         "pexels-scott-webb-532563.jpg"
       ]
     },
+    "jpg-photo-mix": {
+      "type": "img",
+      "dimension": [
+        100,
+        100
+      ],
+      "file": [
+        "anna-shvets-1.jpg",
+        "anna-shvets-2.jpg",
+        "anna-shvets-3.jpg",
+        "daria-shevtsova.jpg",
+        "girl.jpg",
+        "jahoo-clouseau.jpg",
+        "kamile-ozdemir.jpg",
+        "kenneth-gorzal-surillo.jpg",
+        "miguel-a-padrinan.jpg",
+        "suzy-hazelwood.jpg",
+        "toa-heftiba-sinca.jpg",
+        "wendy-wei.jpg",
+        "zaksheuskaya.jpg"
+      ]
+    },
     "jpg-photo-green": {
       "type": "img",
-      "dimension": [100,100],
+      "dimension": [
+        100,
+        100
+      ],
       "file": [
         "clover-g5c18e9b71_1280.jpg",
         "fern-gce1755e99_1280.jpg",
@@ -77,7 +138,10 @@
     },
     "jpg-photo-blue": {
       "type": "img",
-      "dimension": [100,100],
+      "dimension": [
+        100,
+        100
+      ],
       "file": [
         "pexels-btgl-♡-3894157.jpg",
         "pexels-egor-kamelev-920157.jpg",
@@ -93,7 +157,10 @@
     },
     "jpg-photo-white": {
       "type": "img",
-      "dimension": [100,100],
+      "dimension": [
+        100,
+        100
+      ],
       "file": [
         "pexels-adonyi-gabor-2064359.jpg",
         "pexels-anastasia-shuraeva-6964749.jpg",
@@ -109,7 +176,10 @@
     },
     "jpg-photo-black": {
       "type": "img",
-      "dimension": [100,100],
+      "dimension": [
+        100,
+        100
+      ],
       "file": [
         "pexels-artem-saranin-1853542.jpg",
         "pexels-daniel-torobekov-5244260.jpg",
@@ -125,7 +195,10 @@
     },
     "jpg-photo-people": {
       "type": "img",
-      "dimension": [100,100],
+      "dimension": [
+        100,
+        100
+      ],
       "file": [
         "pexels-andrea-piacquadio-733872.jpg",
         "pexels-andrea-piacquadio-774909.jpg",
@@ -158,7 +231,10 @@
     },
     "gif-bg": {
       "type": "img",
-      "dimension": [60,60],
+      "dimension": [
+        60,
+        60
+      ],
       "file": [
         "bg1.gif",
         "bg2.gif",
@@ -167,20 +243,34 @@
     },
     "gif": {
       "type": "img",
-      "dimension": [60,60],
+      "dimension": [
+        60,
+        60
+      ],
       "file": [
-        "1.gif",
-        "2.gif",
-        "3.gif",
-        "4.gif",
-        "5.gif",
-        "6.gif",
-        "7.gif  "
+        "a1.gif",
+        "a2.gif",
+        "a3.gif",
+        "a4.gif",
+        "a5.gif",
+        "b1.gif",
+        "b2.gif",
+        "c1.gif",
+        "c2.gif",
+        "c3.gif",
+        "d1.gif",
+        "d2.gif",
+        "d3.gif",
+        "d4.gif",
+        "d5.gif"
       ]
     },
     "favicon": {
       "type": "img",
-      "dimension": [60,60],
+      "dimension": [
+        60,
+        60
+      ],
       "file": [
         "alien.ico",
         "bomb.ico",
@@ -191,9 +281,22 @@
         "skull.ico"
       ]
     },
+    "mp4-funny": {
+      "type": "video",
+      "dimension": [
+        320,
+        240
+      ],
+      "file": [
+        "egg.mp4"
+      ]
+    },
     "mp4": {
       "type": "video",
-      "dimension": [320,240],
+      "dimension": [
+        320,
+        240
+      ],
       "file": [
         "hair.mp4/#ac7",
         "new-york.mp4",
@@ -202,7 +305,10 @@
     },
     "mp3-effect": {
       "type": "audio",
-      "dimension": [300,40],
+      "dimension": [
+        300,
+        40
+      ],
       "file": [
         "beep.mp3/#0ca",
         "button.mp3/#0ca",
@@ -213,7 +319,10 @@
     },
     "mp3-song": {
       "type": "audio",
-      "dimension": [300,40],
+      "dimension": [
+        300,
+        40
+      ],
       "file": [
         "comedian.mp3",
         "gypsy-jazz-guitar.mp3",
